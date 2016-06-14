@@ -34,7 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  #gem 'byebug'
+  #gem 'debugger'
 end
 
 group :development do
@@ -48,5 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ###########
 # Customize
 gem 'coffee-script-source', '1.8.0'
+
+# for circle ci dependencies
 gem 'mime-types', '2.6'
 
