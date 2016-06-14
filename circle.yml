@@ -1,0 +1,19 @@
+machine:
+  timezone:
+    Asia/Tokyo
+  ruby:
+    version: 1.9.3
+
+#test:
+#  post:
+#    - bundle exec rake test:custom
+#    environment:
+#      RAILS_ENV: test
+#      RACK_ENV: test
+
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: hello-rails-by-forte
+
