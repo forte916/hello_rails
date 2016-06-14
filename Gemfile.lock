@@ -132,7 +132,7 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2016.4)
+    tzinfo-data (1.2016.5)
       tzinfo (>= 1.0.0)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
@@ -151,6 +151,7 @@ DEPENDENCIES
   coffee-script-source (= 1.8.0)
   jbuilder (~> 2.0)
   jquery-rails
+  mime-types (= 3.1)
   rails (= 4.2.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
