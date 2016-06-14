@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+
+th{
+padding: 4px;
+color: #444;
+background-color: #ccc;
+border-top: 1px solid #fff;
+border-left: 1px solid #fff;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+td{
+padding: 4px;
+background-color: #fafafa;
+border-top: 1px solid #fff;
+border-left: 1px solid #fff;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
