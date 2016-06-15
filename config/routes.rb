@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => 'samples#index'
   get 'samples' => 'samples#index'
   get 'samples/index'
   get 'samples/submit'
